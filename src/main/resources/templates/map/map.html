@@ -1,21 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head th:replace="common/head">
-
-</head>
-
-<body>
-
-  <div th:replace="common/header">
-
-  </div>
-
-  <nav th:replace="common/nav">
-
-  </nav>
-
-  <head>
+<html>
+<head>
     <meta charset="utf-8">
     <title>키워드로 장소검색하고 목록으로 표출하기</title>
     <style>
@@ -77,8 +62,7 @@
 </div>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=40c033f19396b0dda04ec4450190c95e&libraries=services,clusterer,drawing"></script>
-
-  <script>
+<script>
 // 마커를 담을 배열입니다
 var markers = [];
 
@@ -297,5 +281,4 @@ function removeAllChildNods(el) {
 }
 </script>
 </body>
-
 </html>
